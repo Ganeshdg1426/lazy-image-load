@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+h1{
+    font-family: sans-serif;
+    color: goldenrod;
+    text-align: center;
+}
+.image-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.lazy{
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: block;
+}
+.lazy.loaded{
+    opacity: 1;
+}
